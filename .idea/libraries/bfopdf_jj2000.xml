@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bfopdf-jj2000">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/bfopdf-jj2000.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
