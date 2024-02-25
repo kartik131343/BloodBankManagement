@@ -11,34 +11,10 @@ The Blood Management Service is a web application for blood banks. Here's an eas
 7. **DonorService class:** This includes methods to manage donors, handle database errors, and load all donors from the database.
 8. **BloodBankService class:** This includes methods to check blood availability, order blood, and calculate the total bill.
 
-The system uses concepts of inheritance, composition, polymorphism, abstract classes/interfaces, and exception handling.
-
-Here's a textual representation of the class diagram:
-
-1. **User**
-    - Attributes: username, password
-    - Methods: login(), register(), resetPassword()
-2. **Admin (extends User)**
-    - Attributes: adminID
-    - Methods: manageDonorDetails(), manageBloodPacketStock()
-3. **Donor (extends User)**
-    - Attributes: donorID, donorInformation
-    - Methods: donate()
-4. **Receiver (extends User)**
-    - Attributes: receiverID
-    - Methods: findBloodDrives(), bookAppointment(), checkBloodGroupAvailability(), orderBlood()
-5. **BloodBank**
-    - Attributes: bloodBankID, bloodGroupAvailability, bloodPackets
-    - Methods: addBloodPacket(), deleteBloodPacket(), projectDemand()
-6. **Report**
-    - Attributes: reportID, bloodGroup, availabilityByCity, demandByDate, medicalHistory
-    - Methods: generateReport()
-7. **DonorService**
-    - Attributes: donorList
-    - Methods: manageDonors(), handleDatabaseErrors(), loadAllDonors()
-8. **BloodBankService**
-    - Attributes: bloodAvailability, totalBill
-    - Methods: checkBloodAvailability(), orderBlood(), calculateTotalBill()
-
-
 ![image1](https://github.com/kartik131343/BloodBankManagement/assets/111492499/ff1e3397-cf6c-42f6-af0f-2c3ba60ee508)
+![image2](https://github.com/kartik131343/BloodBankManagement/assets/111492499/1e67e722-7433-4e79-8d95-1b410597aca1)
+![image3](https://github.com/kartik131343/BloodBankManagement/assets/111492499/07d5baaa-dbf5-4d12-bb8f-ae8b3102a64f)
+![image4](https://github.com/kartik131343/BloodBankManagement/assets/111492499/5af742bc-089a-4b6d-acad-797f819b77e4)
+![image5](https://github.com/kartik131343/BloodBankManagement/assets/111492499/db58d111-3132-4e9e-b0a5-837ab5f587d2)
+![image6](https://github.com/kartik131343/BloodBankManagement/assets/111492499/fc4b3906-905b-42de-a8ac-5b2a86d15cb3)
+![image7](https://github.com/kartik131343/BloodBankManagement/assets/111492499/6e8049c1-6570-49bb-85e6-368326cfd538)
