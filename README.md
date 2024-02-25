@@ -39,3 +39,6 @@ Here's a textual representation of the class diagram:
 8. **BloodBankService**
     - Attributes: bloodAvailability, totalBill
     - Methods: checkBloodAvailability(), orderBlood(), calculateTotalBill()
+
+
+![image1](https://github.com/kartik131343/BloodBankManagement/assets/111492499/ff1e3397-cf6c-42f6-af0f-2c3ba60ee508)
